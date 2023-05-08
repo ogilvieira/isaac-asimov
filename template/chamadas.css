@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*separador personalizado*/
+hr {
+	width:960px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-top:1px solid #000;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:1px solid #4a4a4a;
+}
+
+/*
+################################
+CONFIGURAÇÕES BÁSICAS
+################################
+*/
+
+/* config default "frases" */
+.frase {
+	background-image:url(bg_frase.png);
+	background-repeat:no-repeat;
+	background-position:10px 10px;
+	text-align:center;
+	overflow:hidden;
+}
+/* config default "texto" */
+.texto {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#393939;
+	display:block;
+	padding:10px;
+	background-color:#cecece;
+
+}
+/* config default botao "Leia Mais" */
+.leiamais {
+	text-decoration:none;
+	display:block;
+	background-image:url(bg_leiamais.png);
+	background-repeat:no-repeat;
+	background-position:-10px 0px;
+	margin-top:10px;
+	float:right;
+	position:relative;
+	width:150px;
+	padding-top:10px;
+	padding-bottom:15px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#e5e5e5;
+	text-align:center;
+}
+
+.leiamais:hover {
+	color:#00ade6;
+	background-position:0px 0px;
+}
+
+/* config default "img de cada chamada" */
+.thumb {
+	display:block;
+	background-color:#000;
+	overflow:hidden;
+}
+.thumb img{
+	opacity:0.8;
+	-webkit-transition: all 0.15s ease-in-out; 
+	-moz-transition: all 0.15s ease-in-out;
+	border:0px;
+}
+
+.thumb img:hover{
+opacity:1.0;
+}
+
+/*engloba box para alinhar*/
+#englobeBox { 
+	width:960px;
+	overflow:hidden;
+}
+
+/*
+################################
+BOX UM
+################################
+*/
+#box1 {
+	width:960px;
+	background-color:#e5e5e5;
+	height:350px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-bottom:5px solid #212121;
+	overflow:hidden;
+	}
+	
+#box1 .frase{
+	width:490px;
+	height:180px;
+	display:block;
+	padding-top:40px;
+}
+#box1 .thumb {
+	float:left;
+}
+
+#box1 .texto{
+	width:470px;
+	height:110px;
+	float:left;
+
+}
+/*
+################################
+BOX DOIS
+################################
+*/
+#box2 {
+	width:630px;
+	background-color:#e5e5e5;
+	height:300px;
+	float:left;
+	margin-bottom:10px;
+	border-bottom:5px solid #212121;
+}
+#box2 .thumb{
+	width:630px;
+	height:160px;
+}
+#box2 .frase{
+	width:630px;
+	height:50px;
+	display:block;
+	float:left;
+	padding:5px;
+}
+
+#box2 .texto .paragrafo {
+width:450px;
+float:left;
+}
+
+#box2 .texto{
+	height:60px;
+	overflow:hidden;
+}
+#box2 .leiamais { /*conserta alinhamento do botão no box2*/
+	position:relative;
+	bottom:-5px;
+}
+
+/*
+################################
+BOX TRÊS
+################################
+*/
+#box3{
+	width:310px;
+	background-color:#e5e5e5;
+	height:300px;
+	float:left;
+	margin-left:20px;
+	margin-bottom:10px;
+	border-bottom:5px solid #212121;}
+
+#box3 .thumb {
+	width:310px;
+	height:160px;
+}
+
+#box3 .texto {
+	height:120px;
+}

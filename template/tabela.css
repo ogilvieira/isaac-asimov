@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+publicacao {
+	font-family:Verdana, Geneva, sans-serif;
+	width:900px;
+	font-size:12px;
+	color:#454545;
+}
+cabecalho, linha{
+	display:block;
+	border:1px solid #000;
+	height:auto;
+	overflow:hidden;
+}
+
+cabecalho titulooriginal, cabecalho ano, cabecalho tituloportugues, cabecalho editoraano, cabecalho traducao{
+	text-transform:uppercase;
+	float:left;
+	padding-top:5px;
+	min-height:20px;
+	border-right:1px solid #454545;
+	font-weight:bold;
+	overflow:hidden;
+	background-color:#c1c1c1;
+}
+cabecalho traducao{
+	border-right:none
+}
+titulooriginal, ano, tituloportugues, editoraano, traducao {
+	display:block;
+	float:left;
+	height:30px;
+	border-right:1px solid #454545;
+	padding:5px;
+	overflow:hidden;
+	text-align:center;
+}
+
+titulooriginal {
+	width:150px;
+	font-weight:bold;
+}
+ano {
+	width:35px;
+}
+tituloportugues {
+	width:300px;
+}
+editoraano {
+	width:100px;
+}
+traducao {
+	width:259px;
+	border-right:none;
+}

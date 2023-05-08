@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* padroes */
+h2, #subNav {
+	width:940px;
+	font-family:"rockwell",Times New Roman, Times, serif;
+}
+
+/*
+##########################################
+TITULO
+##########################################
+*/
+h2 {
+	display:block;
+	margin-top:20px;
+	height:75px;
+	padding:0px 10px 0px 10px;
+	color:#454545;
+	background-color:#cecece;
+	font-size:72px;
+	text-shadow:#FFF 0px 1px 0, #000 0 -1px 0;
+}
+
+
+/*
+##########################################
+sub-menu de navegação
+##########################################
+*/
+#subNav {
+	width:940px;
+	padding:5px 10px 5px 25px;
+	height:25px;
+	background-color:#454545;
+	border-bottom:3px solid #b7b7b7;
+	background-image:url(subNav_bg.png);
+	background-repeat:no-repeat;
+	font-size:24px;
+	color:#FFF;
+}
+#subNav a{
+	font-size:24px;
+	color:#FFF;
+	text-decoration:none;
+	text-shadow:#666 0px 1px 0, #000 0 -1px 0;
+}
+#subNav a:hover{
+	color:#00ade6;
+}
+
+/*
+##########################################
+ÁREA DE TEXTO
+##########################################
+*/
+#post {
+	padding:20px;
+	margin-bottom:10px;
+	background-color:#e5e5e5;
+	background-image:url(bg_post.png);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#454545;
+	border-bottom:5px solid #212121;
+}
+
+#post img{
+	border:5px solid #FFF;
+	margin:10px;
+	background-color:#000;
+	max-width:890px;
+}
+#post a{
+	color:#00ade6;
+	font-weight:bold;
+}
+
+#post table, td{
+	border:1px solid #454545;
+	margin:10px;
+}
+
+#post h3{
+	font-size:48px;
+	text-align:center;
+	margin:10px;
+	text-shadow:#fff 0px 1px 0, #000 0 -1px 0;
+}	
+
+#post hr{
+	margin:10px 0px 10px 0px;
+	border-top:1px solid #454545;
+	border-bottom:1px solid #fff;
+	border-left:0px;
+	border-right:0px;
+}
+
+#post .paragrafo{
+	text-align:justify;
+	margin-top:15px;
+}
+#post .paragrafo,ul{
+	margin-bottom:20px;
+}
+#post li{
+	margin:10px;
+}
+/*
+##########################################
+BOTÃO SUBIR
+##########################################
+*/
+#subir {
+	width:500px;
+	height:44px;
+	background-image:url(bg_subir.png);
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:20px;
+	clear:both;
+	padding-top:14px;
+}
+
+#subir a{
+font-family:"rockwell",Verdana, Geneva, sans-serif;
+text-decoration:none;
+color:#cecece;
+text-transform:uppercase;
+font-size:24px;
+text-shadow:#666 0px 1px 0, #000 0 -1px 0;
+}
+
+#subir a:hover{
+color:#00ade6;
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="template/tabela.css" type="text/css" ?>
+<publicacao nome="publicao_no_brasil">
+	<cabecalho>
+		<titulooriginal>Titulo Original</titulooriginal>
+		<ano>Ano</ano>
+		<tituloportugues>Titulo em Português</tituloportugues>
+		<editoraano>Editora/Ano</editoraano>
+		<traducao>Tradução</traducao>
+	</cabecalho>
+	<linha>
+		<titulooriginal>The Complete Robot</titulooriginal>
+		<ano>1982</ano>
+		<tituloportugues>Nós, Robôs</tituloportugues>
+		<editoraano>Hemus,1984</editoraano>
+		<traducao>Norberto de Paula Lima e Mario Silvio Molina Caetano</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>Robot Dreams</titulooriginal>
+		<ano>1986</ano>
+		<tituloportugues>Sonhos de Robô</tituloportugues>
+		<editoraano>Record,1986</editoraano>
+		<traducao>Braulio Tavares e Ana Beatriz Sach</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>Robot Visions</titulooriginal>
+		<ano>1986</ano>
+		<tituloportugues>Visões de Robô</tituloportugues>
+		<editoraano>Record, 1993</editoraano>
+		<traducao>Ronaldo Sergio de Biasi</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>Mãe-Terra</titulooriginal>
+		<ano>1948</ano>
+		<tituloportugues>Mãe-Terra</tituloportugues>
+		<editoraano>Hemus</editoraano>
+		<traducao>Norberto de Paula Lima, Danusa Scarton Rabello Alves e Valéria Fernandes</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>The Caves of Steel</titulooriginal>
+		<ano>1954</ano>
+		<tituloportugues>Caça aos Robôs</tituloportugues>
+		<editoraano>Hemus</editoraano>
+		<traducao>Agatha M. Auesperg</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>The Naked Sun</titulooriginal>
+		<ano>1957</ano>
+		<tituloportugues>Os Robôs</tituloportugues>
+		<editoraano>Hemus</editoraano>
+		<traducao>Jonas Camargo Leite</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>The Robots of Dawn</titulooriginal>
+		<ano>1983</ano>
+		<tituloportugues>Os Robôs do amanhecer</tituloportugues>
+		<editoraano>Record,1985</editoraano>
+		<traducao>José Sanz</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>Robots and Empire</titulooriginal>
+		<ano>1985</ano>
+		<tituloportugues>Os Robôs e o Império</tituloportugues>
+		<editoraano>Record, 1987</editoraano>
+		<traducao>José Sanz</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>The Currents of Space</titulooriginal>
+		<ano>1952</ano>
+		<tituloportugues>As Correntes do Espaço</tituloportugues>
+		<editoraano>Hemus, 1981</editoraano>
+		<traducao>Luiz Roberto de Godoi Vidal</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>The Stars Like Dust</titulooriginal>
+		<ano>1951</ano>
+		<tituloportugues>Poeira de Estrelas</tituloportugues>
+		<editoraano>Expressão e Cultura, 1970</editoraano>
+		<traducao>Stella Alves de Souza</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>Pebble in the Sky</titulooriginal>
+		<ano>1950</ano>
+		<tituloportugues>827 Era Galáctica</tituloportugues>
+		<editoraano>Hemus</editoraano>
+		<traducao>Agatha M. Auesperg</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>Prelude to Foundation</titulooriginal>
+		<ano>1988</ano>
+		<tituloportugues>Preludio da Fundação</tituloportugues>
+		<editoraano>Record, 1988</editoraano>
+		<traducao>Braulio Tavares</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>Forward to Foundation</titulooriginal>
+		<ano>1992</ano>
+		<tituloportugues>Crônicas da Fundação</tituloportugues>
+		<editoraano>Record, 1993</editoraano>
+		<traducao>Ronaldo Sérgio de Biasi</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>Foundation</titulooriginal>
+		<ano>1951</ano>
+		<tituloportugues>Fundação
+(a trilogia foi publicada em um só volume)</tituloportugues>
+		<editoraano> Hemus,1982</editoraano>
+		<traducao>Eduardo Nunes Fonseca</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>Foundation and Empire</titulooriginal>
+		<ano>1952</ano>
+		<tituloportugues></tituloportugues>
+		<editoraano></editoraano>
+		<traducao></traducao>
+	</linha>
+	<linha>
+		<titulooriginal>Second Foundation</titulooriginal>
+		<ano>1953</ano>
+		<tituloportugues></tituloportugues>
+		<editoraano></editoraano>
+		<traducao></traducao>
+	</linha>
+	<linha>
+		<titulooriginal>Foundation's Edge</titulooriginal>
+		<ano>1982</ano>
+		<tituloportugues>Fundação II</tituloportugues>
+		<editoraano>Hemus,1983</editoraano>
+		<traducao>Norberto de Paula Lima</traducao>
+	</linha>
+	<linha>
+		<titulooriginal>Foundation and Earth</titulooriginal>
+		<ano>1983</ano>
+		<tituloportugues>A Fundação e a Terra</tituloportugues>
+		<editoraano>Record, 1989</editoraano>
+		<traducao>Ronaldo Sergio de Biasi</traducao>
+	</linha>
+</publicacao>
+

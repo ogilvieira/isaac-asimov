@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* RESET */
+*{
+	margin:0 auto;
+}
+a { /* aplica transition em todos os links */
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+}
+
+@font-face { /* CARREGA FONT rockwell */
+    font-family: 'rockwell';
+    src: url('fonts/rock-webfont.eot');
+    src: url('fonts/rock-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/rock-webfont.woff') format('woff'),
+         url('fonts/rock-webfont.ttf') format('truetype'),
+         url('fonts/rock-webfont.svg#RockwellRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* bloca conteúdo */
+#headerBox, #menuNavBox, #contentBox, #footerBox{
+	width:960px;
+	overflow:hidden;
+}
+
+/*
+##########################################
+HEADER
+##########################################
+*/
+#header {
+	background-color:#d3d3d3;
+	background-image:url(d3d3d3_bg.jpg);
+	height:295px;
+	width:100%;
+	
+}
+/* img do topo */
+#imgTop1, #imgTop2 {
+	width:470px;
+	float:left;
+
+}
+#imgTop1 {
+	background-image:url(isaac_1.png);
+	background-position: center 27px; /* alinhar slice de img topo */
+	background-repeat:no-repeat;
+	height:295px;
+}
+
+/* logo */
+#logo a{
+	display:block;
+	text-indent:-9999px;
+	background-image:url(logo.png);
+	width:459px;
+	height:191px;
+	float:left;
+	margin-top:55px;
+	margin-left:10px;
+
+}
+
+#logo a:hover{
+	margin-top:50px;
+}
+/*
+##########################################
+MENU NAV
+##########################################
+*/
+#menuNav {
+	height:85px;
+	background-color:#616161;
+	background-image:url(616161_bg.jpg);
+	border-bottom:25px solid #000;
+}
+
+#imgTop2 {
+	background-image:url(isaac_2.png);
+	background-repeat:no-repeat;
+	background-position: 3px 0px; /* alinhar slice de img topo */
+	height:85px;
+	float:left;
+	overflow:hidden;
+}
+
+#menuNavList {
+	display:block;
+	width:490px;
+	height:23px;
+	float:left;
+	padding:31px 0px 31px 0px;
+	background-image:url(linhas_menu_bg.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+#menuNavList, #menuNavList a {
+	font-family:"rockwell", Georgia, Times, serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#d3d3d3;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-shadow:#666 0px 1px 0, #000 0 -1px 0;
+}
+#menuNavList a{
+	margin:5px;
+	color:#d3d3d3;
+}
+
+#menuNavList a:hover {
+color:#00ade6;
+}
+
+/*
+##########################################
+CONTENT
+##########################################
+*/
+
+#content {
+	background-color:#363636;
+	background-image:url(363636_bg.jpg);
+	width:100%;
+	padding-bottom:10px;
+
+}
+
+/*
+##########################################
+FOOTER
+##########################################
+*/
+
+#footer {
+	background-color:#d3d3d3;
+	background-image:url(d3d3d3_bg.jpg);
+	height:185px;
+	width:100%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color:#454545;
+}
+
+#footer a{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	text-decoration:none;
+	color:#454545;
+}
+#footer a:hover{
+	color:#00ade6;
+}
+#footerBox {
+	height:185px;
+	background-image:url(ft_bg.png);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+/* lista mapa do site */
+.list_titulo {
+	font-weight:bold;
+}
+#footerBox  li{
+	margin-top:3px;
+	}
+
+#footerBox  li li{
+	margin-left:-30px;
+	}
+	
+/* configuração dos box */
+#ft_box1, #ft_box2, #ft_box3 {
+padding:10px;
+height:175px;
+float:left;
+}
+
+#ft_box1{
+	margin-left:140px;
+	width:140px;
+}
+
+#ft_box2 {
+	width:240px;
+}
+
+#ft_box3 {
+	width:360px;
+}
